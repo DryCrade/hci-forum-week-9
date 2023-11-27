@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dennis William</title>
+    <link rel="stylesheet" type="text/css" href="https://www.w3schools.com/w3css/4/w3.css">
+</head>
+<style>
+    .header {
+        position: fixed;
+        z-index: 1;
+        width: 50%;
+        left: 25%;
+        right: 25%;
+        text-align: center;
+        background-color: #494951;
+        border-radius: 10px;
+        justify-content: center;
+    }
+
+    .progress-container {
+        width: 100%;
+        height: 8px;
+        background: #ccc;
+        border-radius: 0px 0px 10px 10px;
+    }
+
+    .progress-bar {
+        height: 8px;
+        background: #04AA6D;
+        width: 0%;
+        border-radius: 0px 0px 10px 10px;
+    }
+
+    body {
+        background-color: #28282B; /* Rule 1: consistency of black and white theme */
+        color: white;
+    }
+    fieldset {
+        display: inline-block;
+        border-radius: 15px;
+    }
+
+    .schoollogos {
+        width: 100px;
+        height: 50px;
+        display: flex;
+        padding-left: 20px;
+    }
+
+    @media screen and (max-width:768px) {
+        .removepic {
+            display: none;
+        }
+    }
+
+    a {
+        color: white;
+    }
+
+    a:hover {
+        color: #ADD8E6;
+    }
+</style>
+<body class="w3-center w3-sans-serif w3-animate-bottom w3-animate-opacity"> <!--One div at a time; Rule 8: Reduces short term memory load-->
+    <div class="header">
+        <h1>Dennis William</h1>
+        <div class="progress-container">
+            <div class="progress-bar" id="myBar"></div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="w3-container w3-lightblue w3-center w3-margin" style="display: flex;justify-content: center;">
+        <div class="w3-margin w3-card">
+           <img src="me2.jpg" alt="denniswilliam" title="hello there" width="200" class="removepic">
+        </div>
+        <div class="w3-margin w3-card" style="justify-content: center;">
+            <img src="me.jpg" alt="denniswilliam" width="200" style="height: auto;" class="onlypic">
+        </div>
+        <div class="w3-margin w3-card">
+            <img src="me3.jpg" alt="denniswilliam" width="200" class="removepic">
+        </div>
+    </div>
+    <h3>Dennis William</h3> 
+    <div class="gender">
+        <fieldset> <!-- Consistent usage of fieldset -->
+            <legend><h3>2702342211 - L1BC</h3></legend>   
+        <p>My name is Dennis William. I was born in Jakarta, and I'm currently a <b><i><u>happy</u></i></b> 18 year old!</p>
+        <input type="radio" id="gender" name="gender" value="male" checked> Male
+        <br>
+        <input type="radio" id="gender" name="gender" value="female" disabled> Female
+        <br>
+        </fieldset>
+    <br><br>
+    </div>
+    <div class="sosmed">
+        <fieldset> <!-- Consistent usage of fieldset -->
+        <legend><h3>My social media! (must follow or else 🔪)</h3></legend>
+        <p>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/2048px-Instagram_logo_2016.svg.png" alt="instagramlogo" width="16" height="16">
+            <a href="https://www.instagram.com/denn_will/">Instagram</a>
+            <br>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Octicons-mark-github.svg/2048px-Octicons-mark-github.svg.png" alt="githublogo" width="16" height="16">
+            <a href="https://github.com/DryCrade">Github</a>
+            <br>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Steam_icon_logo.svg/768px-Steam_icon_logo.svg.png" alt="steamlogo" width="16" height="16">
+            <a href="https://steamcommunity.com/id/drycrade/">Steam</a>
+        </p>
+        </fieldset>
+    </div>
+    <br>
+    <div>
+        <fieldset> <!-- Consistent usage of fieldset -->
+        <legend><h3>Education</h3></legend>
+        <p>
+            <b>Playgroup</b> - TK Don Bosco 1
+            <br>
+            <b>Preschool</b> - <a href="https://www.lilinbangsa.sch.id/little-bee-kindergarten/">Little Bee</a>
+            <br>
+            <b>Elementary</b> - <a href="https://www.lilinbangsa.sch.id/idn/">Lilin Bangsa Intercultural School</a>
+            <br>
+            <b>Junior High</b> - <a href="https://www.lilinbangsa.sch.id/idn/">Lilin Bangsa Intercultural School</a>
+            <br>
+            <b>Senior High</b> - <a href="https://www.lilinbangsa.sch.id/idn/">Lilin Bangsa Intercultural School</a>
+            <br>
+            <b>University</b> - <a href="https://international.binus.ac.id">Binus International University</a>
+        </p>
+        <div class="schoollogos">
+            <img class="schoollogos" src="https://upload.wikimedia.org/wikipedia/id/2/23/Logo_Sekolah_Don_Bosco_Jakarta.png">
+            <img class="schoollogos" src="https://www.lilinbangsa.sch.id/wp-content/uploads/2019/10/Little-Bee-1.png">
+            <img class="schoollogos" src="data:image/png;base64,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">
+            <img class="schoollogos" src="https://international.binus.ac.id/wp-content/uploads/2020/07/site-logo.png">
+        </fieldset>
+        </div>
+    </div>
+    <br>
+    <div class="progskills">
+        <fieldset> <!-- Consistent usage of fieldset -->
+            <legend><h3>Programming Skills</h3></legend>
+        <input type="checkbox" id="html1" name="html1" value="html1" checked>
+        <label for="html1">HTML</label>
+        <br>
+        <input type="checkbox" id="html1" name="css1" value="css1" checked>
+        <label for="css1">CSS</label>
+        <br>
+        <input type="checkbox" id="python1" name="python1" value="python1" checked>
+        <label for="python1">Python</label>
+        <br>
+        </fieldset>
+    </div>
+    <br>
+    <div class="hobbies">
+        <fieldset> <!-- Consistent usage of fieldset -->
+        <legend><h3>Hobbies / Interest / Favorite</h3></legend>
+        <ul>
+            <li>Piano 🎹</li>
+            <li>Video Games 🎮</li>
+            <li>Photography 📷</li>
+            <li>Ice Cream 🍨</li>
+        </ul>
+        </fieldset>
+    </div>
+
+    <div class="discord">
+        <fieldset>
+            <legend><h3>Interested in contacting me?</h3></legend><br>
+            <p>Let me know!</p>
+            <p>Please fill your discord tag and let's have a chat:</p><br>
+            <img src="discord.png" width="16px" height="auto">
+            <input type="text" placeholder="user#1234">
+            <button id="discordsubmit">Submit</button>
+
+        </fieldset>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script>
+        // When the user scrolls the page, execute myFunction 
+        window.onscroll = function() {myFunction()};
+        
+        function myFunction() {
+          var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+          var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+          var scrolled = (winScroll / height) * 100;
+          document.getElementById("myBar").style.width = scrolled + "%";
+        }
+
+        $("#discordsubmit").click(function () { /*Rule 3 Informative Feedback */
+            alert("Unfortunately I still haven't build a database to keep your tags, but I will build one soon. Thank you for reaching out :)");
+        })
+    </script>
+    <br>
+    <br>
+    <br>
+    <br>
+</body>
+</html>
+
